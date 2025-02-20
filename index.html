@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="O que vemos no céu à noite?" />
+    <meta name="author" content="SESI" />
+    <title>Aula 13 | O que vemos no céu à noite?</title>
+    <link rel="icon" type="image/png" href="src/img/core/Favicon.png" />
+
+    <!-- Fonts Gamay Editorial -->
+    <link rel="stylesheet" href="https://use.typekit.net/gfu5jar.css" />
+
+    <!--Import Google Icon Font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+    />
+
+    <!-- CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="src/css/main.css"
+      media="screen"
+    />
+
+    <!-- Vue DEV MODE -->
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+
+    <!-- Vue PROD MODE -->
+    <script
+      rel="preconnect"
+      src="https://unpkg.com/vue@3/dist/vue.global.prod.js"
+    ></script>
+
+    <!-- Scorm JS -->
+    <script src="src/js/scorm/APIWrapper.js"></script>
+    <script src="src/js/scorm/SCOFunctions.js"></script>
+    <script src="src/js/scorm/scorm-app.js"></script>
+
+    <link rel="preload" href="src/img/Hero-m.webp" as="image" />
+    <link rel="preload" href="src/img/Hero-s.webp" as="image" />
+
+    <!-- Materialize JS -->
+    <script
+      type="text/javascript"
+      src="src/js/materialize/materialize.js"
+      defer
+    ></script>
+    <!-- AOS JS -->
+    <script
+      type="text/javascript"
+      src="src/js/aos-master/aos.js"
+      defer
+    ></script>
+
+    <!-- App.js JS customizado aqui -->
+    <script type="module" src="src/js/app.js"></script>
+
+    <!-- AOS Animation -->
+    <link type="text/css" rel="stylesheet" href="src/css/aos.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- loading ---------------------------------- -->
+      <div id="loading">
+        <div class="spinner"></div>
+      </div>
+      <div id="content">
+        <!-- Navbar ---------------------------------- -->
+        <navbar></navbar>
+
+        <!-- Hero Banner ----------------------------------->
+        <hero>O que vemos no céu à noite?</hero>
+
+        <!-- Primeiro Conteúdo ----------------------------->
+        <div id="inicio" class="top-rounded pt-80 pb-144">
+          <div class="container--580 center-align">
+            <h2 class="mb-40 purple-text center-align" data-aos="zoom-in">
+              👉 Nesta aula
+            </h2>
+            <p class="body1">
+              <b
+                >Vamos conversar sobre constelações numa perspectiva
+                greco-romana.</b
+              >
+            </p>
+            <p class="m-w580 mx-auto">
+              Na nossa última aventura, descobrimos que o universo possui uma
+              imensidão de corpos celestes, além daqueles que conhecemos em
+              nosso sistema solar. Hoje, vamos conhecer como nossos antepassados
+              interpretavam o céu de acordo com sua cultura.
+            </p>
+          </div>
+        </div>
+        <!-- Fim Primeiro Conteúdo ------------------------->
+
+        <!-- Introdução ------------------------------------>
+        <div id="intro" class="game-story game-story--scene06 pt-80">
+          <div class="container--780">
+            <!-- Luki e Diana -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m3 s3">
+                <img
+                  src="src/img/boy-confirm.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100 character-flip"
+                />
+              </div>
+              <div class="col m6 s6">
+                <div
+                  class="box-attention box-attention--orange-strong box-attention--bl py-16 mt-0-mobile white-text mr-60 mr-0-mobile"
+                >
+                  <p>
+                    Diana! Você não acha o céu noturno fantástico?  Veja como as
+                    constelações estão nítidas hoje!
+                  </p>
+                </div>
+                <div
+                  class="box-attention box-attention--green box-attention--br py-16 mt-24 ml-60 ml-0-mobile"
+                >
+                  <p>Sim, está realmente lindo! Mas o que são constelações?</p>
+                </div>
+              </div>
+              <div class="col m3 s3 flex--align-end">
+                <img
+                  src="src/img/girl-explain.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100"
+                />
+              </div>
+            </div>
+
+            <!-- Doutor -->
+            <div class="row mt-80">
+              <div class="col m6 s6 offset-m2">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--br py-16 mr-80 mt-60 mt-0-mobile mr-0-mobile"
+                >
+                  <p>Essa é uma ótima pergunta, Diana!</p>
+                </div>
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--br py-16 mr-80 mr-0-mobile mt-24"
+                >
+                  <p>
+                    <b>Essa pode ser nossa missão de hoje!</b> <br />
+                    Conhecer como os nossos antepassados interpretavam o céu!
+                  </p>
+                </div>
+              </div>
+              <div class="col m3 s3">
+                <img
+                  class="m-w380 w100"
+                  src="src/img/doctor-happy.webp"
+                  alt="Doutor"
+                  loading="lazy"
+                  style="max-width: 600px !important; width: 100% !important"
+                />
+              </div>
+            </div>
+          </div>
+
+          <divisor src="src/img/Vector.webp" d_class="divisor--mtop"></divisor>
+        </div>
+
+        <div id="chamada" class="py-80 bg-purple">
+          <div class="container--580 center-align white-text">
+            <h3>Prontos para mais uma missão? 😲</h3>
+            <p>Vamos observar o que Luki recebeu em sua central de controle!</p>
+          </div>
+        </div>
+
+        <div id="parte2" class="game-story game-story--scene02">
+          <divisor
+            src="src/img/Vector-1.webp"
+            d_class="divisor--mbot"
+          ></divisor>
+          <div class="container--780">
+            <!-- Missão Board -->
+            <div class="m-w580 mx-auto pt-80">
+              <!-- Missão -->
+              <div class="bullet-reveal">
+                <!-- Bullet -->
+                <a
+                  data-aos="fade-up"
+                  class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="bullet-01"
+                  style="left: 50%; top: 65%"
+                >
+                  <div id="bullet-01" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Para isso você deve conhecer: <br />
+                      <br />
+                      ● Compreender o que são constelações e sua importância
+                      cultural na perspectiva greco-romana. <br />
+                      <br />
+                      ● Identificar algumas constelações notáveis e entender as
+                      histórias mitológicas associadas a elas. <br />
+                      <br />
+                      ● Explorar como as constelações eram utilizadas na
+                      antiguidade para navegação, agricultura e contagem do
+                      tempo.
+                    </p>
+                  </div>
+                </a>
+                <!-- fim Bullet -->
+                <img
+                  data-aos="zoom-in"
+                  class="mission-img w100"
+                  src="src/img/mission01.webp"
+                  alt="Missão"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <!-- Diana -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m6 s9 offset-m2">
+                <div
+                  class="box-attention box-attention--green box-attention--br py-16 mt-60 mt-0-mobile"
+                >
+                  <p>Mas o que significa <b>constelação?</b></p>
+                </div>
+              </div>
+              <div class="col m3 s3">
+                <img
+                  src="src/img/girl-walking.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100"
+                />
+              </div>
+            </div>
+
+            <!-- Doutor -->
+            <div class="row mt-80">
+              <div class="col m4 s3">
+                <img
+                  class="w100"
+                  src="src/img/doctor-hunter.webp"
+                  alt="Doutor"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m8 s9">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--bl py-16 mr-80 mt-60 mt-0-mobile mr-0-mobile"
+                >
+                  <p>
+                    No passado, as pessoas organizavam as estrelas no céu
+                    através de constelações.
+                  </p>
+                </div>
+
+                <div class="content-reveal cr-01">
+                  <div
+                    @click="pulseReview('cr-01')"
+                    class="box-attention clicker mt-40 mt-20-mobile flex--align-center flex--justify-center m-w450"
+                    style="padding: 8px"
+                  >
+                    <img
+                      src="src/img/doctor-avatar.png"
+                      alt="Doutor"
+                      loading="lazy"
+                      class="mr-8"
+                    />
+                    <p class="purple-text" style="font-size: 12px">
+                      <b>Explicação do Prof. Mathias sobre constelações.</b>
+                    </p>
+                  </div>
+                  <div class="cr-01 scale-transition scale-out">
+                    <div
+                      class="box-attention mt-24 p-24 flex--align-center flex--justify-center"
+                    >
+                      <p class="purple-text">
+                        Uma constelação é uma área específica e delimitada do
+                        céu noturno que contém um grupo aparente de estrelas,
+                        muitas vezes imaginariamente conectadas por linhas para
+                        formar uma figura ou padrão reconhecível. Esses padrões
+                        foram historicamente identificados e nomeados por
+                        diferentes culturas ao longo da história.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Luki -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m5 s9 offset-m4">
+                <div
+                  class="box-attention box-attention--orange-strong box-attention--br py-16 mt-0-mobile white-text"
+                >
+                  <p>
+                    Sim, eu conheço algumas delas! Elas representam mitos e
+                    refletem a cultura do povo que as nomearam!
+                  </p>
+                </div>
+              </div>
+              <div class="col m3 s3">
+                <img
+                  src="src/img/boy-confirm.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100"
+                />
+              </div>
+            </div>
+
+            <!-- Doutor -->
+            <div class="row mt-80">
+              <div class="col m3 s3">
+                <img
+                  class="w100 character-flip"
+                  src="src/img/doctor-happy.webp"
+                  alt="Doutor"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m8 s9">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--bl py-16 mr-80 mt-60 mt-0-mobile mr-0-mobile"
+                >
+                  <p>
+                    Na antiguidade, os gregos e romanos olhavam para o céu e
+                    viam figuras mitológicas. Quem já ouviu falar em mitologia?
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Diana -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m6 s9 offset-m2">
+                <div
+                  class="box-attention box-attention--green box-attention--br py-16 mt-60 mt-0-mobile"
+                >
+                  <p>
+                    Eu já! São aquelas histórias antigas com deuses e criaturas,
+                    certo?
+                  </p>
+                </div>
+              </div>
+              <div class="col m3 s3">
+                <img
+                  src="src/img/girl-explain.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100 character-flip"
+                />
+              </div>
+            </div>
+          </div>
+
+          <divisor
+            src="src/img/Group 169.webp"
+            d_class="divisor--mtop"
+          ></divisor>
+        </div>
+
+        <div id="parte3" class="py-80">
+          <div class="container">
+            <div class="row">
+              <div class="col m6 s12">
+                <img
+                  src="src/img/prof.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m6 s12 flex--align-center">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--bl py-16 mr-80 mr-0-mobile"
+                >
+                  <p>Sim, exatamente!</p>
+                  <p>
+                    Agora, imagine essas histórias ganhando vida no céu,
+                    formando as constelações.
+                    <b>Vamos explorar algumas delas.</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m8 s12 flex--align-center">
+                <div>
+                  <h4 class="purple-text">
+                    Vamos começar pela constelação de Órion!
+                  </h4>
+                  <p>
+                    A majestosa constelação de Órion, a 26ª maior do céu,
+                    abrange 594 graus quadrados. Destacando-se entre Gêmeos,
+                    Touro e outras, representa uma cena de caça. Seu Cinturão
+                    notável, com estrela mais brilhante, Rígel, a torna
+                    facilmente identificável em todo o mundo. Visível do
+                    sudoeste (Hemisfério Norte) e noroeste (Hemisfério Sul),
+                    Órion é uma das constelações mais reconhecíveis,
+                    complementada pelo aglomerado globular M3.
+                  </p>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <img
+                  src="src/img/Group 212.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m6 s12 flex--align-center">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--br py-16 mr-80 mr-0-mobile"
+                >
+                  <p>
+                    Órion, o caçador gigante da mitologia grega, apaixonou-se
+                    por Artemis. Com ciúmes, a Terra enviou um escorpião para
+                    atacar Órion. Na batalha, Órion foi picado mortalmente.
+                    Artemis, triste, pediu a Zeus para transformá-los em
+                    constelações opostas no céu - Órion e Escorpião, nunca mais
+                    se encontrando.
+                  </p>
+                </div>
+              </div>
+              <div class="col m6 s12">
+                <img
+                  src="src/img/Group 236.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m4 s12">
+                <img
+                  src="src/img/Group 212-1.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m8 s12 flex--align-center">
+                <div>
+                  <h4 class="purple-text">Ursa maior e Ursa menor</h4>
+                  <p>
+                    A Ursa Maior, conhecida como o Grande Carro, é uma
+                    constelação icônica no Hemisfério Norte, catalogada por
+                    Cláudio Ptolomeu há mais de 2000 anos. Sua facilidade de
+                    localização a torna valiosa para identificar outras estrelas
+                    e constelações. Visível em latitudes entre 90°N e 30°S,
+                    cobrindo 1280 graus quadrados do céu, é a terceira maior
+                    constelação. No Hemisfério Norte, observadores têm o
+                    privilégio de vê-la todas as noites ao longo do ano. Já a
+                    Ursa Menor, representada pelo Urso Menor, destaca-se pela
+                    Estrela Polar como sua principal estrela, desempenhando um
+                    papel crucial na orientação celestial.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m6 s12">
+                <img
+                  src="src/img/Group 236.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m6 s12 flex--align-center">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--bl py-16 mr-80 mr-0-mobile"
+                >
+                  <p>
+                    Calisto, agora uma ursa, encontrou seu próprio filho Arcas,
+                    sem saber que ele era seu filho. Prestes a ser mortos
+                    durante uma caçada, Zeus interferiu, transformando Arcas
+                    também em uma constelação, a Ursa Menor, para que mãe e
+                    filho pudessem permanecer juntos no céu noturno, separados
+                    dos perigos da Terra. Essa mitologia adiciona um toque
+                    emocional às constelações, eternizando o amor e o vínculo
+                    familiar no firmamento.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m8 s12 flex--align-center">
+                <div>
+                  <h4 class="purple-text">Constelação de Cassiopeia</h4>
+                  <p>
+                    Cassiopeia, apelidada de A Rainha, é uma das 88 constelações
+                    que decoram o céu noturno. Situada no hemisfério celestial
+                    norte, sua característica forma em "W" formada por cinco
+                    estrelas brilhantes é facilmente identificável. Além de sua
+                    estética única, Cassiopeia é notável por abrigar enxames
+                    estelares abertos, com destaque para a deslumbrante Alpha
+                    Cassiopeiae, também conhecida como Shedir. Esta constelação
+                    é uma presença constante acima dos 35° Norte, tornando-se
+                    visível praticamente durante todo o ano, especialmente nos
+                    meses frios.
+                  </p>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <img
+                  src="src/img/Group 212-2.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m6 s12 flex--align-center">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--br py-16 mr-80 mr-0-mobile"
+                >
+                  <p>
+                    Na mitologia grega, Cassiopeia era a rainha etíope vaidosa
+                    que desafiou a beleza das Nereidas, incluindo Anfitrite,
+                    esposa de Poseidon. Como castigo, o deus dos mares exigiu o
+                    sacrifício de sua filha, Andrômeda, para aplacar a fúria do
+                    monstro marinho Ceto, simbolizando uma baleia. A lenda narra
+                    que Cassiopeia, como castigo final, foi colocada no céu em
+                    posições desconfortáveis e humilhantes, uma lembrança eterna
+                    de sua arrogância na busca pela beleza.
+                  </p>
+                </div>
+              </div>
+              <div class="col m6 s12">
+                <img
+                  src="src/img/Group 237.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m4 s12">
+                <img
+                  src="src/img/Group 212-3.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m8 s12 flex--align-center">
+                <div>
+                  <h4 class="purple-text">Constelação de Hércules</h4>
+                  <p>
+                    Hércules, o lendário herói grego Héracles, assume a forma de
+                    uma constelação moderna, classificada como a quinta maior
+                    dentre as 88. Situada no hemisfério celestial norte,
+                    Hércules é distintamente marcada por sua pedra angular
+                    composta por quatro estrelas notáveis (Épsilon, Zeta, Eta e
+                    Pi), tornando-se uma presença notável durante as noites de
+                    verão. Assim como Cassiopeia, Hércules revela-se um tesouro
+                    celestial, abrigando aglomerados estelares notáveis, sendo o
+                    mais brilhante deles o M13, o aglomerado globular mais
+                    luminoso no hemisfério norte. Além disso, esta constelação
+                    também é lar da nebulosa NGC 6210 e do aglomerado globular
+                    M92, enriquecendo ainda mais o esplendor do firmamento.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-40">
+              <div class="col m6 s12 flex--align-center">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--br py-16 mr-80 mr-0-mobile"
+                >
+                  <p>
+                    A constelação de Hércules recebeu seu nome em homenagem a
+                    Héracles, o antigo herói grego, conhecido como Hércules
+                    pelos romanos. A representação celeste de Hércules destaca o
+                    herói segurando em sua mão direita sua arma favorita, o
+                    bastão, e na esquerda, parte da cabeça do cão Cerberus, ou
+                    um ramo com maçãs do Jardim das Hespérides. Ambas as figuras
+                    simbolizam os notáveis 12 trabalhos realizados por Héracles.
+                  </p>
+                </div>
+              </div>
+              <div class="col m6 s12">
+                <img
+                  src="src/img/Group 236.webp"
+                  class="w100"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="parte4" class="game-story game-story--scene02">
+          <div class="container--780">
+            <!-- Diana -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m6 s9 offset-m2">
+                <div
+                  class="box-attention box-attention--green box-attention--br py-16 mt-60 mt-0-mobile"
+                >
+                  <p>
+                    Uau! Que lindas histórias essas constelações nos contam!!
+                  </p>
+                </div>
+              </div>
+              <div class="col m4 s3">
+                <img
+                  src="src/img/girl-info.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100"
+                />
+              </div>
+            </div>
+
+            <!-- Doutor -->
+            <div class="row mt-80">
+              <div class="col m4 s3">
+                <img
+                  class="w100"
+                  src="src/img/doctor-hunter.webp"
+                  alt="Doutor"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m8 s9">
+                <div
+                  class="box-attention box-attention--purple-strong box-attention--bl py-16 mr-80 mt-60 mt-0-mobile mr-0-mobile"
+                >
+                  <p>
+                    Além dessas constelações, existem outras que contam
+                    histórias tão bacanas quanto essa!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Robo -->
+            <div class="row pt-80 mt-20-mobile">
+              <div class="col m6 s9 offset-m2">
+                <div
+                  class="box-attention box-attention--br py-16 mt-60 mt-0-mobile"
+                >
+                  <p>
+                    Realize uma pesquisa e descubra a história de uma
+                    constelação que você ainda não conhecia.
+                  </p>
+                </div>
+              </div>
+              <div class="col m4 s3">
+                <img
+                  src="src/img/Ativo 1@2x 4.webp"
+                  alt="Diana"
+                  loading="lazy"
+                  class="w100 m-w300"
+                />
+              </div>
+            </div>
+          </div>
+
+          <divisor
+            src="src/img/Vector-2.webp"
+            d_class="divisor--mtop"
+          ></divisor>
+        </div>
+
+        <div id="orbitas" class="py-80" style="margin-top: -3px">
+          <div class="container--780">
+            <iframe
+              class="w100 img-rounded my-60"
+              height="450"
+              src="https://www.youtube.com/embed/YMSz6vK2jpk?si=CqXFbR31UQ_b8pcN"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+
+            <div class="row">
+              <div class="col m6 s12">
+                <img
+                  src="src/img/Group 170.webp"
+                  class="w100 m-w350"
+                  alt="Imagem da Choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col m6 s12 flex--align-center">
+                <div>
+                  <h3>👉 Em ação...</h3>
+                  <p>Você já conhecia alguma dessas constelações?</p>
+                  <p>
+                    <b
+                      >Questione a sua família se eles conhecem alguma história
+                      em relação a eles.</b
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Você sabia 03 / sem imagem ----------------------------------->
+            <div class="card-03 card-03 pt-60">
+              <div class="card-03--content-solo dark-gray-light-bg">
+                <p class="body1 green-text flex--align-center">
+                  <span class="emote-box">😮</span><b>Você sabia?</b>
+                </p>
+                <p class="white-text">
+                  Você pode observar e encontrar mais facilmente as constelações
+                  no céu através de aplicativos de mapas celestes.
+                </p>
+                <p class="white-text">
+                  Aqui uma sugestão que facilita o processo!
+                </p>
+                <p>
+                  <a
+                    class="green-text"
+                    href="https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free"
+                    target="_blank"
+                    ><b>Acesse aqui</b></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Relatório -->
+        <div id="relatorio" class="game-story game-story--scene02 pb-80">
+          <divisor
+            src="src/img/Group 171.webp"
+            d_class="divisor--mbot"
+          ></divisor>
+          <div class="container">
+            <div class="row">
+              <div class="col m12 s12 center-align">
+                <h3 class="mb-40 green-text center-align" data-aos="zoom-in">
+                  Relatório da Missão
+                </h3>
+                <p class="white-text center-align">
+                  <b>Hoje, nós:</b>
+                </p>
+
+                <p class="white-text">
+                  👉 Conhecemos algumas constelações e suas histórias; <br />
+                  👉 Como encontrar as constelações em um céu estrelado.
+                </p>
+              </div>
+            </div>
+            <div class="row pb-80">
+              <div class="col m12 s12 center-align">
+                <img
+                  class="character"
+                  src="src/img/boy-ok.webp"
+                  alt="Luki"
+                  loading="lazy"
+                  style="max-width: 200px !important"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="proxima" class="game-ending">
+          <div
+            class="container--medium center-align flex--align-center flex--column pt-144"
+          >
+            <div style="max-width: 620px">
+              <h3 class="mb-40 green-text center-align" data-aos="zoom-in">
+                A Jornada Continua...
+              </h3>
+              <p class="white-text">
+                Nosso próximo passo? É perceber que nem todas as civilizações
+                veem o céu da mesma forma. Preparem-se para desvendar como os
+                povos que viviam no Brasil interpretavam as estrelas! 🌌🔭 Até
+                lá, sob novos céus!
+              </p>
+            </div>
+
+            <!-- Concluir ---------------------------------->
+            <concluir></concluir>
+          </div>
+        </div>
+
+        <!-- Footer ---------------------------------- -->
+        <app-footer style="margin-top: -30px"></app-footer>
+      </div>
+    </div>
+  </body>
+</html>

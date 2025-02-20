@@ -1,0 +1,50 @@
+// ---------------------------------------------------------
+// Tratamento Aula específica
+// ---------------------------------------------------------
+
+#introdução {
+  background-color: #eff1f2;
+}
+
+.clicker {
+  cursor: pointer;
+  //  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  animation: pulse 1s infinite;
+  transition: all 0.4s ease 0s;
+}
+
+.clicker:hover {
+  background: #f1e86f;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  //  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  animation: pulse 1s infinite;
+}
+
+.full-img {
+  background-image: url("../img/gif-11.webp");
+}
+
+#house {
+  background-image: url("../img/house.webp");
+  // background-size: cover;
+  // background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-top: -25px;
+  position: relative;
+  z-index: 1;
+
+  .custom-divider {
+    margin-bottom: -10px;
+  }
+}
+
+.missao {
+  background-image: url("../img/bg-1.svg");
+  background-repeat: no-repeat;
+  background-attachment: unset;
+  background-size: cover;
+  background-position: center center;
+}

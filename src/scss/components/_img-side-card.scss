@@ -1,0 +1,48 @@
+.img-side-card {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .card {
+    z-index: 1;
+    position: relative;
+    margin-left: -24px;
+
+    padding-left: 40px;
+    width: 50%;
+    border-radius: $border-radius-lg;
+    .card-content {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  }
+  @include tablet {
+    flex-direction: column;
+
+    img {
+      width: 90%;
+    }
+    .card {
+      margin-top: -24px;
+      margin-left: 0px;
+
+      padding-left: 20px;
+      width: 100%;
+      border-radius: $border-radius-lg;
+    }
+  }
+  @include mobile {
+    .card {
+      padding: 0;
+      padding-top: 8px;
+      .card-content {
+        padding: 16px;
+      }
+    }
+  }
+}
